@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Ana">
+    <meta name="keywords" content="supit, projektni zadatak, algebra">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mybootstrap.css">
+    <link rel="stylesheet" href="css/novost3.css">
+    <title>SUPIT - projektni zadatak</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- ===================-> navigacija <-=================== -->
+        <div class="row">
+            <nav class="navbar fixed-top navbar-expand-md navbar-my-black bg-my-black col">
+                <a class="navbar-brand"><img src="./img/Algebra-logo.png" alt=""></a>
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Početna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="onama.html">O nama</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="novosti.html">Novosti <span class="sr-only">(novosti)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nastavniplan.html">Nastavni plan</a>
+                        </li>
+                        <li class="nav-item" data-toggle="modal" data-target="#contactModal">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <!-- ===================-> header <-=================== -->
+
+        <div class="page-header text-center" id="news-header"></div>
+
+
+        <!-- ===================-> content <-=================== -->
+
+        <div class="content">
+            <article class="article1">
+                <h1>Digitalno Junior Ljeto</h1>
+                <p>
+                    Algebra Junior organizira edukativne i zabavne ljetne
+                    praznike za sve osnovnoškolce! I ove smo godine
+                    pripremili digitalne radionice za djecu čiji je fokus
+                    rješavanja raznih problema korištenjem tehnologije,
+                    multimedije, digitalnog dizajna i komunikacija te
+                    stvaranju sadržaja u svim multimedijskim i softverskim
+                    oblicima. Radionice se održavaju u sklopu Digitalnog
+                    ljetnog kampa u Crikvenici i Digitalne ljetne škole u
+                    Zagrebu kako bismo se družili, zabavljali i učili i na
+                    moru i na kontinentu! Na digitalnom kampu i u školi
+                    provodit će se dva različita programa koji su
+                    namijenjena djeci od 1. do 8. razreda. Ovisno o
+                    odabranom terminu, polaznici će prolaziti kroz 1. ili 2.
+                    program, a u slučaju pohađanja dvotjednih programa –
+                    oba. U prvom programu nađe nindže uče biti glazbeni
+                    menadžeri dok su u drugom novinari i kreatori
+                    informacija masovnih medija. Provjerite termine, cijene
+                    i lokacije škole i kampa na sljedećem linku.
+                </p>
+            </article>
+        </div>
+
+        <!-- ===================-> footer <-=================== -->
+
+        <footer class="p-5 text-center text-dark mt-4" id="news-footer">
+            <p class="mb-4">Budi izvrstan u onom sto volis.</p>
+            <p class="mb-4">ZAISKRI</p>
+        </footer>
+
+        <!-- ===================-> modal <-=================== -->
+
+        <div class="modal fade text-dark" id="contactModal" action="http://www.fulek.com/VUA/SUPIT/ContactUs"
+            method="post">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Kontaktirajte nas</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Puno ime</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Puno ime">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>Odaberite vaznost poruke</option>
+                                    <option value="1">Visoka</option>
+                                    <option value="2">Srednja</option>
+                                    <option value="3">Niska</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Vasa poruka</span>
+                                    </div>
+                                    <textarea rows="6" class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                    </div>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2">Primaj newsletter</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="submit" value="Pošalji" class="btn btn-outline-success">
+                            <input type="reset" value="Odustani" class="btn btn-outline-danger">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>

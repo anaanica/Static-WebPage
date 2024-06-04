@@ -1,0 +1,65 @@
+body {
+    padding-top: 70px;
+}
+
+/* prilagodba navigacijskog bara - pocetak */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+  
+  .bg-my-black {
+    background-color: rgb(1, 1, 1);
+  }
+
+  .navbar-my-black .nav-item a {
+    color:  rgba(255,255,255,1);
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+  }
+  
+  .navbar-my-black .nav-item a:hover {
+    color:  rgb(239, 222, 37);
+  }
+  
+  .navbar-my-black .navbar-toggler {
+    /* border-width: 2px; */
+    border-color:  rgba(255,255,255,0.8);
+  }
+  
+  .navbar-my-black .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke= 'rgba(255,255,255,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+ 
+  .navbar-my-black .nav-item.active a {
+    color: rgb(239, 222, 37);
+    font-weight: 700;
+  }
+/* prilagodba navigacijskog bara - pocetak */
+
+/* prilagodba zaglavlja - pocetak */
+#nastavniplan-header {
+  height: 10vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#nastavniplan-header p{
+  font-weight: bold;
+  font-size: larger;
+}
+/* prilagodba zaglavlja - kraj */
+
+/* prilagodba podnozja - pocetak */
+#nastavniplan-footer {
+  height: 30vh;
+  background: url("../img/zaiskri-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nastavniplan-footer p {
+  font-weight: bold;
+}
+/* prilagodba podnozja - pocetak */
